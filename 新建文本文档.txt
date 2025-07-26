@@ -1,0 +1,8 @@
+# 在电脑上操作（需先安装Git）：
+git clone https://github.com/alyssa-crypto/crypto.cc.git
+cd crypto.cc
+rm -rf *  # 清空现有错误文件
+unzip ~/Downloads/crypto-fixpack.zip  # 解压修复包
+git add .
+git commit -m "完整文件修复"
+git push
